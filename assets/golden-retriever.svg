@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200" role="img" aria-label="Illustration of a Golden Retriever">
+  <!-- body -->
+  <ellipse cx="110" cy="150" rx="64" ry="34" fill="#f4c97a" stroke="#9c6b1f" stroke-width="3"/>
+  <!-- head -->
+  <circle cx="110" cy="95" r="38" fill="#f8d98c" stroke="#9c6b1f" stroke-width="3"/>
+  <!-- medium droopy ears -->
+  <path d="M76 82 q-16 18 -8 44 q12 0 18 -22z" fill="#e0b15e"/>
+  <path d="M144 82 q16 18 8 44 q-12 0 -18 -22z" fill="#e0b15e"/>
+  <!-- eyes -->
+  <circle cx="97" cy="92" r="4" fill="#1a1a1a"/>
+  <circle cx="123" cy="92" r="4" fill="#1a1a1a"/>
+  <!-- nose and smile -->
+  <ellipse cx="110" cy="108" rx="8" ry="6" fill="#1a1a1a"/>
+  <path d="M110 114 q-8 10 -16 4 M110 114 q8 10 16 4" stroke="#9c6b1f" stroke-width="2" fill="none"/>
+  <!-- legs -->
+  <rect x="80" y="170" width="12" height="22" rx="6" fill="#f4c97a" stroke="#9c6b1f" stroke-width="3"/>
+  <rect x="128" y="170" width="12" height="22" rx="6" fill="#f4c97a" stroke="#9c6b1f" stroke-width="3"/>
+  <!-- fluffy tail -->
+  <path d="M170 140 q34 -6 30 -36 q-12 4 -18 18 q-2 12 -12 18z" fill="#f8d98c" stroke="#9c6b1f" stroke-width="3"/>
+</svg>

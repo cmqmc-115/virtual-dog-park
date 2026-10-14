@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200" role="img" aria-label="Illustration of a Poodle">
+  <!-- curly body -->
+  <ellipse cx="110" cy="150" rx="58" ry="36" fill="#e8a86a" stroke="#9c5a1f" stroke-width="3"/>
+  <!-- curly texture (small circles) -->
+  <g fill="#d8944f">
+    <circle cx="80" cy="140" r="9"/><circle cx="100" cy="134" r="9"/><circle cx="120" cy="134" r="9"/><circle cx="140" cy="140" r="9"/>
+    <circle cx="90" cy="158" r="9"/><circle cx="110" cy="160" r="9"/><circle cx="130" cy="158" r="9"/>
+  </g>
+  <!-- round head with topknot -->
+  <circle cx="110" cy="92" r="34" fill="#f0b878" stroke="#9c5a1f" stroke-width="3"/>
+  <circle cx="110" cy="62" r="14" fill="#f0b878" stroke="#9c5a1f" stroke-width="3"/>
+  <!-- long ears close to the head -->
+  <path d="M84 78 q-14 22 -6 44 q12 -2 16 -24z" fill="#d8944f"/>
+  <path d="M136 78 q14 22 6 44 q-12 -2 -16 -24z" fill="#d8944f"/>
+  <!-- eyes -->
+  <circle cx="100" cy="90" r="4" fill="#1a1a1a"/>
+  <circle cx="120" cy="90" r="4" fill="#1a1a1a"/>
+  <!-- nose and smile -->
+  <ellipse cx="110" cy="104" rx="7" ry="5" fill="#1a1a1a"/>
+  <path d="M110 109 q-7 9 -14 4 M110 109 q7 9 14 4" stroke="#9c5a1f" stroke-width="2" fill="none"/>
+  <!-- legs with pompoms -->
+  <rect x="82" y="172" width="12" height="18" rx="6" fill="#e8a86a" stroke="#9c5a1f" stroke-width="3"/>
+  <circle cx="88" cy="172" r="10" fill="#f0b878" stroke="#9c5a1f" stroke-width="3"/>
+  <rect x="126" y="172" width="12" height="18" rx="6" fill="#e8a86a" stroke="#9c5a1f" stroke-width="3"/>
+  <circle cx="132" cy="172" r="10" fill="#f0b878" stroke="#9c5a1f" stroke-width="3"/>
+  <!-- pompom tail -->
+  <circle cx="166" cy="130" r="13" fill="#f0b878" stroke="#9c5a1f" stroke-width="3"/>
+</svg>

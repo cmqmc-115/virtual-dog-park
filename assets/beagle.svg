@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200" role="img" aria-label="Illustration of a Beagle">
+  <!-- body -->
+  <ellipse cx="110" cy="150" rx="62" ry="34" fill="#ffffff" stroke="#3a3a3a" stroke-width="3"/>
+  <!-- black saddle patch on the back -->
+  <path d="M72 132 q38 -42 76 0 q4 28 -38 38 q-42 -10 -38 -38z" fill="#3a3a3a"/>
+  <!-- head -->
+  <circle cx="110" cy="95" r="38" fill="#ffffff" stroke="#3a3a3a" stroke-width="3"/>
+  <!-- long floppy ears -->
+  <path d="M78 80 q-22 12 -18 46 q14 8 22 -12z" fill="#8a5a2b"/>
+  <path d="M142 80 q22 12 18 46 q-14 8 -22 -12z" fill="#8a5a2b"/>
+  <!-- tan eye patches -->
+  <ellipse cx="96" cy="92" rx="12" ry="10" fill="#8a5a2b"/>
+  <ellipse cx="124" cy="92" rx="12" ry="10" fill="#8a5a2b"/>
+  <!-- eyes -->
+  <circle cx="96" cy="92" r="4" fill="#1a1a1a"/>
+  <circle cx="124" cy="92" r="4" fill="#1a1a1a"/>
+  <!-- nose and smile -->
+  <ellipse cx="110" cy="108" rx="8" ry="6" fill="#1a1a1a"/>
+  <path d="M110 114 q-8 10 -16 4 M110 114 q8 10 16 4" stroke="#3a3a3a" stroke-width="2" fill="none"/>
+  <!-- legs -->
+  <rect x="80" y="170" width="12" height="22" rx="6" fill="#ffffff" stroke="#3a3a3a" stroke-width="3"/>
+  <rect x="128" y="170" width="12" height="22" rx="6" fill="#ffffff" stroke="#3a3a3a" stroke-width="3"/>
+  <!-- tail -->
+  <path d="M168 140 q30 -10 26 -34 q-10 6 -16 18z" fill="#ffffff" stroke="#3a3a3a" stroke-width="3"/>
+</svg>

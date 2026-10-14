@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <!-- This meta tag makes the page scale correctly on phones -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Virtual Dog Park</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== Header / Welcome ===== -->
+  <header class="site-header">
+    <h1>Virtual Dog Park</h1>
+    <p class="welcome">
+      Welcome to the Virtual Dog Park! Meet three friendly dog breeds in our
+      encyclopedia, then adopt a virtual puppy and take care of it every day.
+    </p>
+  </header>
+
+  <main>
+    <!-- ===== Round 1: Dog Encyclopedia ===== -->
+    <section id="encyclopedia">
+      <h2>Dog Encyclopedia</h2>
+      <p class="section-intro">
+        Three popular breeds. Each card shows size, personality, and everyday care.
+      </p>
+
+      <div class="breed-grid">
+        <!-- Beagle -->
+        <article class="breed-card">
+          <img src="assets/beagle.svg" alt="Illustration of a Beagle" width="200" height="180" />
+          <h3>Beagle</h3>
+          <ul>
+            <li><strong>Size:</strong> Small. About 33-41 cm tall, 9-11 kg.</li>
+            <li><strong>Personality:</strong> Friendly, curious, and good with kids.</li>
+            <li><strong>Everyday care:</strong> Needs daily walks and loves to sniff. Keep it on a leash outside.</li>
+          </ul>
+        </article>
+
+        <!-- Golden Retriever -->
+        <article class="breed-card">
+          <img src="assets/golden-retriever.svg" alt="Illustration of a Golden Retriever" width="200" height="180" />
+          <h3>Golden Retriever</h3>
+          <ul>
+            <li><strong>Size:</strong> Large. About 51-61 cm tall, 25-34 kg.</li>
+            <li><strong>Personality:</strong> Gentle, smart, and eager to please.</li>
+            <li><strong>Everyday care:</strong> Brush often. Loves exercise and playing fetch.</li>
+          </ul>
+        </article>
+
+        <!-- Poodle -->
+        <article class="breed-card">
+          <img src="assets/poodle.svg" alt="Illustration of a Poodle" width="200" height="180" />
+          <h3>Poodle</h3>
+          <ul>
+            <li><strong>Size:</strong> Varies. Standard is ~38-60 cm tall, 20-32 kg.</li>
+            <li><strong>Personality:</strong> Clever, alert, and active.</li>
+            <li><strong>Everyday care:</strong> Needs regular grooming. Learns tricks quickly.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Round 2 & 3: My Virtual Dog ===== -->
+    <section id="my-dog">
+      <h2>My Virtual Dog</h2>
+
+      <!-- Adoption form: shown when there is no dog yet -->
+      <form id="adopt-form" class="adopt-form">
+        <p class="section-intro">Choose a breed and give your dog a name to adopt it.</p>
+
+        <div class="field">
+          <label for="breed-select">Breed</label>
+          <select id="breed-select" name="breed">
+            <option value="Beagle">Beagle</option>
+            <option value="Golden Retriever">Golden Retriever</option>
+            <option value="Poodle">Poodle</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="name-input">Dog name (max 20 characters)</label>
+          <input id="name-input" name="name" type="text" maxlength="20" placeholder="e.g. Buddy" />
+        </div>
+
+        <button type="submit" id="adopt-btn">Adopt</button>
+        <p id="adopt-message" class="message" role="alert"></p>
+      </form>
+
+      <!-- Pet card: shown after adoption -->
+      <div id="pet-card" class="pet-card hidden">
+        <img id="pet-image" src="" alt="" width="200" height="180" />
+        <h3 id="pet-name"></h3>
+        <p><strong>Breed:</strong> <span id="pet-breed"></span></p>
+        <p><strong>Day:</strong> <span id="pet-day"></span></p>
+        <p><strong>Stage:</strong> <span id="pet-stage"></span></p>
+        <p><strong>Happiness:</strong> <span id="pet-happiness"></span> / 100</p>
+
+        <!-- Growth bar: width changes with the growth stage -->
+        <div class="growth-bar-wrap">
+          <div class="growth-bar" id="growth-bar"></div>
+        </div>
+
+        <div class="button-row">
+          <button type="button" id="feed-btn">Feed</button>
+          <button type="button" id="play-btn">Play</button>
+          <button type="button" id="next-day-btn">Next Day</button>
+          <button type="button" id="start-over-btn">Start Over</button>
+        </div>
+        <p class="save-note">Your dog is saved in this browser only. Refresh to see it return.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Virtual Dog Park — a small project built with HTML, CSS, and vanilla JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
